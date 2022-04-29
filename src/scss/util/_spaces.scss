@@ -1,0 +1,48 @@
+@use '../abstracts/spacing' as *;
+@use '../abstracts/breakpoints' as *;
+
+@each $prop, $value in $spaces {
+  .mt-#{$prop} {
+    margin-block-start: var(--space-#{$prop});
+  }
+  .mr-#{$prop} {
+    margin-inline-end: var(--space-#{$prop});
+  }
+  .ml-#{$prop} {
+    margin-inline-start: var(--space-#{$prop});
+  }
+  .mb-#{$prop} {
+    margin-block-end: var(--space-#{$prop});
+  }
+  .my-#{$prop} {
+    margin-block: var(--space-#{$prop});
+  }
+  .gap-#{$prop} {
+    gap: var(--space-#{$prop});
+  }
+  .p-#{$prop} {
+    padding: var(--space-#{$prop});
+  }
+  .pt-#{$prop} {
+    padding-block-start: var(--space-#{$prop});
+  }
+  .pb-#{$prop} {
+    padding-block-end: var(--space-#{$prop});
+  }  
+  .pr-#{$prop} {
+    padding-inline-end: var(--space-#{$prop});
+  }
+  .pl-#{$prop} {
+    padding-inline-start: var(--space-#{$prop});
+  }
+  .py-#{$prop} {
+    padding-block: var(--space-#{$prop});
+  }
+  .px-#{$prop} {
+    padding-inline: var(--space-#{$prop});
+  }
+}
+
+.mx-auto {
+  margin-inline: auto;
+}

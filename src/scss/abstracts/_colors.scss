@@ -1,0 +1,16 @@
+$theme-colors: (
+  'primary': hsl(18, 100%, 60%),
+  'secondary': #292830,
+  'tertiary': hsl(0, 0%, 74%),
+  'white': hsl(0, 0%, 100%),
+  'cyan': hsl(197, 88%, 60%),
+  'purple': hsl(256, 87%, 50%),
+  'yellow': hsl(42, 100%, 56%),
+  'brown': hsl(15, 42%, 54%),
+  'shadow' : (
+    0, 
+    0, 
+    0, 
+    0.1
+  )
+);

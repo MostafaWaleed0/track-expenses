@@ -1,0 +1,46 @@
+@use '../abstracts/' as *;
+
+.site-foot {
+  &__email {
+    max-width: rem(349);
+    width: rem(349);
+    
+
+    form {
+      label {
+        display: block;
+      }
+      
+      > div {
+        position: relative;
+        border: 1px solid #292830;
+        width: 100%;
+        height: rem(62);
+        border-radius: 0.5rem;
+
+        input {
+          border: 0;
+          outline: 0;
+          padding: 0;
+          margin: 0;
+          height: 100%;
+          width: 100%;
+          &::placeholder {
+            font-size: var(--fs-400);
+            font-weight: var(--fw-regular);
+            color: var(--clr-secondary);
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+ nav {
+    flex: 1;
+  }
+
+  .copyright {
+    border-top: 1px solid var(--clr-tertiary);
+  }
+}

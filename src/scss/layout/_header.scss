@@ -1,0 +1,47 @@
+@use '../abstracts/' as *;
+
+.site-head {
+  --_header-space: 3.5625rem;
+  --_header-height: 3rem;
+
+  margin-block-start: var(--_header-space);
+  height: var(--_header-height);
+
+  &__middle {
+    width: 100%;
+    @include breakpoint-down(medium) {
+      @include position(
+        absolute,
+        $right: 0,
+        $top: calc(var(--_header-height) + var(--_header-space)),
+        $z-index: 999
+      );
+      height: 100%;
+      padding: var(--space-8);
+      background: var(--clr-primary);
+      transform: translateX(100%);
+    }
+
+    &[data-visible='true'] {
+      transform: translateX(0);
+    }
+  }
+
+  &__navigation {
+    flex: 1;
+
+     > ul {
+      margin: 0
+    }
+
+    @include breakpoint-down(medium) {
+      flex: 0.6;
+    }
+  }
+
+  &__toggle {
+    @include breakpoint(large) {
+      display: none;
+    }
+  }
+}

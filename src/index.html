@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home - Xpense</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet"><!-- Bootstrap Icons -->
+  <link href="https://unpkg.com/modern-css-reset/dist/reset.min.css" rel="stylesheet"><!-- Modern CSS Reset -->
+  <link href="/css/style.css" rel="stylesheet"><!-- Main Template CSS File -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"><!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+  <!--========== HEADER ==========-->
+  <header class="site-head" role="banner">
+    <div class="wrapper">
+      <div class="[ site-head__inner ] [ flex-space ]">
+        <a aria-label="X pense" class="site-head__brand" href="#"><svg aria-hidden="true" height="38" viewbox="0 0 112 40" width="112">
+        <circle cx="20" cy="20" fill="#FF7235" r="20"></circle>
+        <path d="M18.176 26H14.384L18.728 19.904L14.648 13.832H18.536L20.504 17.456L22.688 13.832H26.528L22.16 19.928L26.216 26H22.4L20.36 22.352L18.176 26Z" fill="white"></path>
+        <path d="M55.841 29.462H53.587V13.339H55.841V15.133C56.6383 13.8297 57.8343 13.178 59.429 13.178C60.9623 13.178 62.1737 13.7377 63.063 14.857C63.9523 15.961 64.397 17.3717 64.397 19.089C64.397 20.8523 63.937 22.309 63.017 23.459C62.1123 24.5937 60.901 25.161 59.383 25.161C57.8343 25.161 56.6537 24.517 55.841 23.229V29.462ZM55.841 19.135C55.841 20.4843 56.1553 21.4963 56.784 22.171C57.428 22.8457 58.1563 23.183 58.969 23.183C59.8737 23.183 60.6173 22.8303 61.2 22.125C61.7827 21.4043 62.074 20.4 62.074 19.112C62.074 17.9007 61.7903 16.9423 61.223 16.237C60.6557 15.5163 59.935 15.156 59.061 15.156C58.187 15.156 57.428 15.478 56.784 16.122C56.1553 16.7507 55.841 17.755 55.841 19.135ZM75.6228 24.379C74.7641 24.8697 73.6295 25.115 72.2188 25.115C70.4095 25.115 68.9681 24.5707 67.8948 23.482C66.8215 22.3933 66.2848 20.9673 66.2848 19.204C66.2848 17.3333 66.7755 15.869 67.7568 14.811C68.7381 13.7377 69.9878 13.201 71.5058 13.201C72.9931 13.201 74.1738 13.6687 75.0478 14.604C75.9218 15.524 76.3588 16.858 76.3588 18.606C76.3588 19.0813 76.3128 19.5797 76.2208 20.101H68.5618C68.7151 21.113 69.1445 21.8873 69.8498 22.424C70.5551 22.9607 71.4445 23.229 72.5178 23.229C73.7598 23.229 74.7948 22.9377 75.6228 22.355V24.379ZM71.5518 15.064C70.7851 15.064 70.1258 15.3477 69.5738 15.915C69.0218 16.467 68.6768 17.272 68.5388 18.33H74.1738V17.916C74.1431 17.042 73.9055 16.352 73.4608 15.846C73.0161 15.3247 72.3798 15.064 71.5518 15.064ZM88.6498 25H86.3958V17.64C86.3958 16.8273 86.1888 16.2063 85.7748 15.777C85.3761 15.3477 84.8394 15.133 84.1648 15.133C83.3674 15.133 82.6851 15.4473 82.1178 16.076C81.5504 16.6893 81.2668 17.5557 81.2668 18.675V25H79.0128V13.339H81.2668V15.34C81.9568 13.8987 83.1681 13.178 84.9008 13.178C86.0508 13.178 86.9631 13.5307 87.6378 14.236C88.3124 14.9413 88.6498 15.8997 88.6498 17.111V25ZM98.9718 21.78C98.9718 22.8227 98.6038 23.643 97.8678 24.241C97.1318 24.8237 96.1351 25.115 94.8778 25.115C93.4978 25.115 92.3478 24.885 91.4278 24.425V22.286C92.5011 22.9453 93.6128 23.275 94.7628 23.275C95.3608 23.275 95.8208 23.1523 96.1428 22.907C96.4801 22.6617 96.6488 22.3397 96.6488 21.941C96.6488 21.6037 96.5184 21.3047 96.2578 21.044C95.9971 20.768 95.7288 20.5687 95.4528 20.446C95.1921 20.308 94.7398 20.101 94.0958 19.825C92.2711 19.0737 91.3588 17.9697 91.3588 16.513C91.3588 15.4857 91.7421 14.6807 92.5088 14.098C93.2754 13.5153 94.2338 13.224 95.3838 13.224C96.6411 13.224 97.6224 13.3927 98.3278 13.73V15.777C97.5764 15.3323 96.6104 15.11 95.4298 15.11C94.8931 15.11 94.4638 15.2327 94.1418 15.478C93.8351 15.7233 93.6818 16.0453 93.6818 16.444C93.6818 16.5513 93.6894 16.6587 93.7048 16.766C93.7354 16.858 93.7814 16.9577 93.8428 17.065C93.9041 17.157 93.9578 17.2413 94.0038 17.318C94.0651 17.3793 94.1571 17.4483 94.2798 17.525C94.4024 17.6017 94.4944 17.6707 94.5558 17.732C94.6324 17.778 94.7474 17.8393 94.9008 17.916C95.0694 17.9927 95.1921 18.054 95.2688 18.1C95.3454 18.1307 95.4758 18.192 95.6598 18.284C95.8591 18.3607 95.9971 18.4143 96.0738 18.445C96.9784 18.8437 97.6838 19.296 98.1898 19.802C98.7111 20.2927 98.9718 20.952 98.9718 21.78ZM110.01 24.379C109.152 24.8697 108.017 25.115 106.606 25.115C104.797 25.115 103.356 24.5707 102.282 23.482C101.209 22.3933 100.672 20.9673 100.672 19.204C100.672 17.3333 101.163 15.869 102.144 14.811C103.126 13.7377 104.375 13.201 105.893 13.201C107.381 13.201 108.561 13.6687 109.435 14.604C110.309 15.524 110.746 16.858 110.746 18.606C110.746 19.0813 110.7 19.5797 110.608 20.101H102.949C103.103 21.113 103.532 21.8873 104.237 22.424C104.943 22.9607 105.832 23.229 106.905 23.229C108.147 23.229 109.182 22.9377 110.01 22.355V24.379ZM105.939 15.064C105.173 15.064 104.513 15.3477 103.961 15.915C103.409 16.467 103.064 17.272 102.926 18.33H108.561V17.916C108.531 17.042 108.293 16.352 107.848 15.846C107.404 15.3247 106.767 15.064 105.939 15.064Z" fill="#292830"></path></svg></a>
+        <div class="[ site-head__middle ] [ flex-column-responsive ]" data-visible="false" id="head-middle">
+          <nav aria-label="primary" class="[ site-head__navigation ] [ center-x ]" tabindex="-1">
+            <ul class="[ flex-column-responsive ] [ gap-7 text-center ]" role="list">
+              <li class="fs-400">
+                <a href="">Features</a>
+              </li>
+              <li class="fs-400">
+                <a href="">About us</a>
+              </li>
+              <li class="fs-400">
+                <a href="">Pricing</a>
+              </li>
+              <li class="fs-400">
+                <a href="">Feedback</a>
+              </li>
+            </ul>
+          </nav><a class="[ button ]"  data-type="head" href="#">Request a demo</a>
+        </div>
+        <div aria-controls="head-middle" aria-expanded="false" aria-label="Open navigation" class="[ site-head__toggle ] [ fs-700 ]" id="nav-toggle" role="button">
+          <span aria-hidden="true" class="bi bi-list" id="toggle-icon"></span>
+        </div>
+      </div>
+    </div>
+  </header><!--========== MAIN ==========-->
+  <main id="main-content" tabindex="-1">
+    <!--========== hero ==========-->
+    <article class="[ hero ] [ wrapper ] [ flex-column-responsive ] [ gap-6 ]">
+      <div>
+        <h1>Track your Expenses to Save Money</h1>
+        <p class="mt-4">Helps you to organize your income and expenses</p>
+        <div class="[ hero-cta ] [ mt-7 ] [ center-y ]">
+          <div class="mr-5">
+            <a class="[ button ]" href="" data-type="hero">Try free demo<span aria-hidden="true" class="[ bi bi-chevron-down ] [ ml-1 ]"></span></a>
+          </div>
+          <p>— Web, iOs and Android</p>
+        </div>
+      </div>
+      <div class="hero__img"><img loading="lazy" alt="" src="./img/img-home.jpg"></div>
+    </article>
+    <div class="flow-sections">
+      <!--========== PROJECT ==========-->
+      <div class="project">
+        <div class="[ project__img ] [ bg-primary mb-8 ]">
+          <div class="wrapper"><img loading="lazy" alt="" src="./img/image5-1.png"></div>
+        </div>
+        <div class="flex-column-responsive gap-7 wrapper"><img loading="lazy" alt="" src="./img/image1-1.jpg"> <img loading="lazy" alt="" src="./img/image2.jpg"> <img loading="lazy" alt="" src="./img/image3.jpg"> <img loading="lazy" alt="" src="./img/image5.jpg"> <img loading="lazy" alt="" src="./img/image4.jpg"></div>
+      </div>
+      <!--========== feature==========-->
+      <article class="[ feature ] [ flex-column-responsive ] [ gap-6 ] [ wrapper ]">
+        <div class="flow">
+          <p class="fs-500 uppercase">Alwalys online</p>
+          <h1>Real-time support with cloud</h1>
+          <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.</p><a class="[ center-y ] [ text-primary fs-600 gap-1 ]" href="">Learn more<span aria-hidden="true" class="bi bi-chevron-right"></span></a>
+        </div>
+        <div class="[ feature__img ] [ center-y ]"><img loading="lazy" alt="" src="./img/img-article1.jpg"></div>
+      </article>
+      <!--========== feature==========-->
+      <article class="[ feature ] [ flex-column-responsive ] [ gap-6 ] [ wrapper ]" data-state="reversed">
+        <div class="flow">
+          <p class="fs-500 uppercase">free some cost</p>
+          <h1>Save cost for you and family</h1>
+          <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.</p><a class="[ center-y ] [ text-primary fs-600 gap-1 ]" href="">Learn more<span aria-hidden="true" class="bi bi-chevron-right"></span></a>
+        </div>
+        <div class="[ feature__img ] [ center-y ]"><img loading="lazy" alt="" src="./img/img-article2.jpg"></div>
+      </article>
+      <!--========== feature==========-->
+      <article class="[ feature ] [ flex-column-responsive ] [ gap-6 ] [ wrapper ]">
+        <div class="flow">
+          <p class="fs-500 uppercase">Use anytime</p>
+          <h1>Use anytime when you need</h1>
+          <p>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.</p><a class="[ center-y ] [ text-primary fs-600 gap-1 ]" href="">Learn more<span aria-hidden="true" class="bi bi-chevron-right"></span></a>
+        </div>
+        <div class="[ feature__img ] [ center-y ]"><img loading="lazy" alt="" src="./img/img-article3.jpg"></div>
+      </article>
+      <!--========== PRODUCT ==========-->
+      <article class="[ product ] [ wrapper ]">
+        <div class="[ headline ] [ flex-space flex-wrap ]">
+          <h1>The Product we work with.</h1>
+          <p class="mt-5">Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.</p>
+        </div>
+        <ul class=" [ cards ] [ flex-column-responsive ]" role="list">
+          <li>
+            <article class="[ card ] [ flow ] [ center-xy flex-col ] [ p-8 text-center ]">
+              <svg aria-hidden="true" class="mx-auto" height="24" viewbox="0 0 24 24" width="24">
+              <path d="M4 6H22V4H4C2.9 4 2 4.9 2 6V17H0V20H14V17H4V6ZM23 8H17C16.45 8 16 8.45 16 9V19C16 19.55 16.45 20 17 20H23C23.55 20 24 19.55 24 19V9C24 8.45 23.55 8 23 8ZM22 17H18V10H22V17Z" fill="#FFBD74"></path></svg>
+              <div class="[ card__text ]">
+                <h3 class="fs-600 fw-medium">Cross platform</h3>
+                <p class="fs-200 mt-2">Elit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div><a href=""><span aria-hidden="true" class="bi bi-arrow-right"></span></a>
+            </article>
+          </li>
+          <li>
+            <article class="[ card ] [ flow ] [ center-xy flex-col ] [ p-8 text-center ]">
+              <svg aria-hidden="true" class="mx-auto" height="24" viewbox="0 0 24 24" width="24">
+              <g clip-path="url(#clip0)">
+                <path d="M19.35 10.04C19.0141 8.33772 18.0976 6.80486 16.7571 5.70325C15.4165 4.60163 13.7351 3.99961 12 4C9.11 4 6.6 5.64 5.35 8.04C3.88023 8.19883 2.52101 8.89521 1.53349 9.99532C0.545971 11.0954 -0.000171702 12.5217 4.04928e-08 14C4.04928e-08 17.31 2.69 20 6 20H19C21.76 20 24 17.76 24 15C24 12.36 21.95 10.22 19.35 10.04ZM19 18H6C3.79 18 2 16.21 2 14C2 11.79 3.79 10 6 10H6.71C7.37 7.69 9.48 6 12 6C15.04 6 17.5 8.46 17.5 11.5V12H19C20.66 12 22 13.34 22 15C22 16.66 20.66 18 19 18Z" fill="#E2598B"></path>
+              </g>
+              <defs>
+                <clippath id="clip0">
+                  <rect fill="white" height="24" width="24"></rect>
+                </clippath>
+              </defs></svg>
+              <div class="[ card__text ]">
+                <h3 class="fs-600 fw-medium">Cloud server</h3>
+                <p class="fs-200 mt-2">Elit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div><a href=""><span aria-hidden="true" class="bi bi-arrow-right"></span></a>
+            </article>
+          </li>
+          <li>
+            <article class="[ card ] [ flow ] [ center-xy flex-col ] [ p-8 text-center ]">
+              <svg aria-hidden="true" class="mx-auto" height="24" viewbox="0 0 24 24" width="24">
+              <path d="M17 4.14V2H14V4H10V2H7V4.14C5.28 4.59 4 6.14 4 8V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8C20 6.14 18.72 4.59 17 4.14ZM18 20H6V8C6 6.9 6.9 6 8 6H16C17.1 6 18 6.9 18 8V20ZM16.5 12V16H14.5V14H7.5V12H16.5Z" fill="#4D12EE"></path></svg>
+              <div class="[ card__text ]">
+                <h3 class="fs-600 fw-medium">Pure Javascript</h3>
+                <p class="fs-200 mt-2">Elit esse cillum dolore eu fugiat nulla pariatur</p>
+              </div><a href=""><span aria-hidden="true" class="bi bi-arrow-right"></span></a>
+            </article>
+          </li>
+        </ul>
+      </article>
+      <!--========== PLAN ==========-->
+      <article class="[ plan ] [ wrapper ]">
+        <div class="[ headline ] [ text-center ]">
+          <h2>Choose your flex-rowible plan.</h2>
+        </div>
+        <ul class="[ cards ] [ flex-column-responsive ] [ gap-6 ]" role="list">
+          <li class="[ card ] [ pt-7 pb-8 pl-7 ]">
+            <div class="flow">
+              <svg aria-hidden="true" height="24" viewbox="0 0 24 24" width="24">
+              <path d="M20 6H17V4C17 2.89 16.11 2 15 2H9C7.89 2 7 2.89 7 4V6H4C2.89 6 2 6.89 2 8V19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8C22 6.89 21.11 6 20 6ZM9 4H15V6H9V4ZM20 19H4V17H20V19ZM20 14H4V8H7V10H9V8H15V10H17V8H20V14Z" fill="#3EC1F3"></path></svg>
+              <h3 class="fs-800 fw-semiBold">Starter Plan</h3>
+              <ul role="list">
+                <li class="fs-400"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Store unlimited data</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Export to pdf, xls, csv</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Cloud server support</li>
+              </ul>
+              <div>
+                <h4 class="fs-600 fw-semiBold">$9.99/<span class="fs-600 fw-regular text-tertiary">year</span></h4>
+                <p class="fs-100">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <div class="[ card__button ] [ mt-7 ]">
+              <a class="[ button ]" href="" data-type="card">Get this<span aria-hidden="true" class="[ bi bi-arrow-right ]  [ ml-1 ]"></span></a>
+            </div>
+          </li>
+          <li class="[ card ] [ pt-7 pb-8 pl-7 ]">
+            <div class="flow">
+              <svg aria-hidden="true" height="24" viewbox="0 0 24 24" width="24">
+              <path d="M20 6.00004H17.82C17.93 5.69004 18 5.35004 18 5.00004C18.0011 4.35486 17.7939 3.72657 17.4092 3.20863C17.0245 2.69069 16.4829 2.31077 15.8649 2.12538C15.2469 1.93999 14.5856 1.95903 13.9794 2.17969C13.3731 2.40034 12.8542 2.81081 12.5 3.35004L12 4.02004L11.5 3.34004C10.96 2.54004 10.05 2.00004 9 2.00004C7.34 2.00004 6 3.34004 6 5.00004C6 5.35004 6.07 5.69004 6.18 6.00004H4C2.89 6.00004 2.01 6.89004 2.01 8.00004L2 19C2 20.11 2.89 21 4 21H20C21.11 21 22 20.11 22 19V8.00004C22 6.89004 21.11 6.00004 20 6.00004ZM15 4.00004C15.55 4.00004 16 4.45004 16 5.00004C16 5.55004 15.55 6.00004 15 6.00004C14.45 6.00004 14 5.55004 14 5.00004C14 4.45004 14.45 4.00004 15 4.00004ZM9 4.00004C9.55 4.00004 10 4.45004 10 5.00004C10 5.55004 9.55 6.00004 9 6.00004C8.45 6.00004 8 5.55004 8 5.00004C8 4.45004 8.45 4.00004 9 4.00004ZM20 19H4V17H20V19ZM20 14H4V8.00004H9.08L7 10.83L8.62 12L12 7.40004L15.38 12L17 10.83L14.92 8.00004H20V14Z" fill="#FF7235"></path></svg>
+              <h3 class="fs-800 fw-semiBold">Sliver Plan</h3>
+              <ul role="list">
+                <li class="fs-400"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Store unlimited data</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Export to pdf, xls, csv</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Cloud server support</li>
+              </ul>
+              <div>
+                <h4 class="fs-600 fw-semiBold">$19.99/<span class="fs-600 fw-regular text-tertiary">year</span></h4>
+                <p class="fs-100">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <div class="[ card__button ] [ mt-7 ]">
+              <a class="[ button ]" href="" data-type="card">Get this<span aria-hidden="true" class="[ bi bi-arrow-right ]  [ ml-1 ]"></span></a>
+            </div>
+          </li>
+          <li class="[ card ] [ pt-7 pb-8 pl-7 ]">
+            <div class="flow">
+              <svg aria-hidden="true" height="24" viewbox="0 0 24 24" width="24">
+              <path d="M20 2H4C2.89 2 2 2.89 2 4V15C2 16.11 2.89 17 4 17H8V22L12 20L16 22V17H20C21.11 17 22 16.11 22 15V4C22 2.89 21.11 2 20 2ZM20 15H4V13H20V15ZM20 10H4V5C4 4.45 4.45 4 5 4H19C19.55 4 20 4.45 20 5V10Z" fill="#4D12EE"></path></svg>
+              <h3 class="fs-800 fw-semiBold">Diamond Plan</h3>
+              <ul role="list">
+                <li class="fs-400"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Store unlimited data</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Export to pdf, xls, csv</li>
+                <li class="fs-400 mt-1"><span aria-hidden="true" class="[ bi bi-check2 ] [ text-tertiary mr-1 ]"></span>Cloud server support</li>
+              </ul>
+              <div>
+                <h4 class="fs-600 fw-semiBold">$29.99/<span class="fw-regular text-tertiary">year</span></h4>
+                <p class="fs-100">up to 3 user + 1.99 per user</p>
+              </div>
+            </div>
+            <div class="[ card__button ] [ mt-7 ]">
+              <a class="[ button ]" href="" data-type="card">Get this<span aria-hidden="true" class="[ bi bi-arrow-right ]  [ ml-1 ]"></span></a>
+            </div>
+          </li>
+        </ul>
+      </article>
+      <!--========== OPINIONS ==========-->
+      <article class="[ opinion ] [ wrapper ]">
+        <header class="[ headline ] [ text-center ] [ center-x ]">
+          <h1>We have millions of best wishers</h1>
+        </header>
+        <div>
+          <ul class="[ cards ] [ gap-6 ] [ center-x ]" role="list">
+            <li class="[ card ] [ flow ] [ pt-3 px-6 pb-5 ]">
+              <p class="text-secondary fs-400">Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.</p>
+              <div class="center-y">
+                <img loading="lazy" alt="" class="mr-2" src="./img/face.jpg">
+                <p class="text-secondary fs-300 fw-bold">Cameron Williamson,</p><span class="text-tertiary fs-300">&#160;CEO</span>
+              </div>
+            </li>
+            <li class="[ card ] [ flow ] [ pt-3 px-6 pb-5 ]">
+              <p class="text-secondary fs-400">Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.</p>
+              <div class="center-y">
+                <img loading="lazy" alt="" class="mr-2" src="./img/face.jpg">
+                <p class="text-secondary fs-300 fw-bold">Cameron Williamson,</p><span class="text-tertiary fs-300">&#160;CEO</span>
+              </div>
+            </li>
+            <li class="[ card ] [ flow ] [ pt-3 px-6 pb-5 ]">
+              <p class="text-secondary fs-400">Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.</p>
+              <div class="center-y">
+                <img loading="lazy" alt="" class="mr-2" src="./img/face.jpg">
+                <p class="text-secondary fs-300 fw-bold">Cameron Williamson,</p><span class="text-tertiary fs-300">&#160;CEO</span>
+              </div>
+            </li>
+            <li class="[ card ] [ flow ] [ pt-3 px-6 pb-5 ]">
+              <p class="text-secondary fs-400">Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.</p>
+              <div class="center-y">
+                <img loading="lazy" alt="" class="mr-2" src="./img/face.jpg">
+                <p class="text-secondary fs-300 fw-bold">Cameron Williamson,</p><span class="text-tertiary fs-300">&#160;CEO</span>
+              </div>
+            </li>
+            <li class="[ card ] [ flow ] [ pt-3 px-6 pb-5 ]">
+              <p class="text-secondary fs-400">Eleifend fames amet, fames enim. Ullamcorper pellentesque ac volutpat nibh aliquet et, ut netus. Vel, fringilla sit eros pretium felis massa mauris, aliquam congue.</p>
+              <div class="center-y">
+                <img loading="lazy" alt="" class="mr-2" src="./img/face.jpg">
+                <p class="text-secondary fs-300 fw-bold">Cameron Williamson,</p><span class="text-tertiary fs-300">&#160;CEO</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!--========== DOWNLOADED ==========-->
+      <article class="[ region ] [ bg-primary ]">
+        <div class="text-center mx-auto">
+          <h2 class="text-white mx-auto">20M+ downloaded from 32 diffrent countires</h2>
+          <h3 class="text-white fs-700 fw-medium mt-5 mx-auto">Try demo for 7 days with full features.</h3>
+          <div class="mt-8">
+            <a class="[ button ]" href="" data-type="region">Try free demo<span aria-hidden="true" class="[ bi bi-chevron-down ]  [ ml-2 ]"></span></a>
+          </div>
+        </div>
+        <div class="[ region__imgs ] [ justify-evenly ]"><img loading="lazy" alt="" src="./img/Layer10.png"> <img loading="lazy" alt="" src="./img/Layer4.png"></div>
+      </article>
+    </div>
+  </main>
+  <!--========== FOOTER ==========-->
+  <footer class="[ site-foot ] [ wrapper ]" role="contentinfo">
+    <div class="[ wrapper ] [ flex-space flex-wrap items-start ] [ gap-9 pt-9 pb-7 ]">
+      <div class="[ logo ] [ center-y ] [ mb-8 ]">
+        <a aria-label="X pense" href="#"><svg aria-hidden="true" height="40" viewbox="0 0 112 40" width="112">
+        <circle cx="20" cy="20" fill="#FF7235" r="20"></circle>
+        <path d="M18.176 26H14.384L18.728 19.904L14.648 13.832H18.536L20.504 17.456L22.688 13.832H26.528L22.16 19.928L26.216 26H22.4L20.36 22.352L18.176 26Z" fill="white"></path>
+        <path d="M55.841 29.462H53.587V13.339H55.841V15.133C56.6383 13.8297 57.8343 13.178 59.429 13.178C60.9623 13.178 62.1737 13.7377 63.063 14.857C63.9523 15.961 64.397 17.3717 64.397 19.089C64.397 20.8523 63.937 22.309 63.017 23.459C62.1123 24.5937 60.901 25.161 59.383 25.161C57.8343 25.161 56.6537 24.517 55.841 23.229V29.462ZM55.841 19.135C55.841 20.4843 56.1553 21.4963 56.784 22.171C57.428 22.8457 58.1563 23.183 58.969 23.183C59.8737 23.183 60.6173 22.8303 61.2 22.125C61.7827 21.4043 62.074 20.4 62.074 19.112C62.074 17.9007 61.7903 16.9423 61.223 16.237C60.6557 15.5163 59.935 15.156 59.061 15.156C58.187 15.156 57.428 15.478 56.784 16.122C56.1553 16.7507 55.841 17.755 55.841 19.135ZM75.6228 24.379C74.7641 24.8697 73.6295 25.115 72.2188 25.115C70.4095 25.115 68.9681 24.5707 67.8948 23.482C66.8215 22.3933 66.2848 20.9673 66.2848 19.204C66.2848 17.3333 66.7755 15.869 67.7568 14.811C68.7381 13.7377 69.9878 13.201 71.5058 13.201C72.9931 13.201 74.1738 13.6687 75.0478 14.604C75.9218 15.524 76.3588 16.858 76.3588 18.606C76.3588 19.0813 76.3128 19.5797 76.2208 20.101H68.5618C68.7151 21.113 69.1445 21.8873 69.8498 22.424C70.5551 22.9607 71.4445 23.229 72.5178 23.229C73.7598 23.229 74.7948 22.9377 75.6228 22.355V24.379ZM71.5518 15.064C70.7851 15.064 70.1258 15.3477 69.5738 15.915C69.0218 16.467 68.6768 17.272 68.5388 18.33H74.1738V17.916C74.1431 17.042 73.9055 16.352 73.4608 15.846C73.0161 15.3247 72.3798 15.064 71.5518 15.064ZM88.6498 25H86.3958V17.64C86.3958 16.8273 86.1888 16.2063 85.7748 15.777C85.3761 15.3477 84.8394 15.133 84.1648 15.133C83.3674 15.133 82.6851 15.4473 82.1178 16.076C81.5504 16.6893 81.2668 17.5557 81.2668 18.675V25H79.0128V13.339H81.2668V15.34C81.9568 13.8987 83.1681 13.178 84.9008 13.178C86.0508 13.178 86.9631 13.5307 87.6378 14.236C88.3124 14.9413 88.6498 15.8997 88.6498 17.111V25ZM98.9718 21.78C98.9718 22.8227 98.6038 23.643 97.8678 24.241C97.1318 24.8237 96.1351 25.115 94.8778 25.115C93.4978 25.115 92.3478 24.885 91.4278 24.425V22.286C92.5011 22.9453 93.6128 23.275 94.7628 23.275C95.3608 23.275 95.8208 23.1523 96.1428 22.907C96.4801 22.6617 96.6488 22.3397 96.6488 21.941C96.6488 21.6037 96.5184 21.3047 96.2578 21.044C95.9971 20.768 95.7288 20.5687 95.4528 20.446C95.1921 20.308 94.7398 20.101 94.0958 19.825C92.2711 19.0737 91.3588 17.9697 91.3588 16.513C91.3588 15.4857 91.7421 14.6807 92.5088 14.098C93.2754 13.5153 94.2338 13.224 95.3838 13.224C96.6411 13.224 97.6224 13.3927 98.3278 13.73V15.777C97.5764 15.3323 96.6104 15.11 95.4298 15.11C94.8931 15.11 94.4638 15.2327 94.1418 15.478C93.8351 15.7233 93.6818 16.0453 93.6818 16.444C93.6818 16.5513 93.6894 16.6587 93.7048 16.766C93.7354 16.858 93.7814 16.9577 93.8428 17.065C93.9041 17.157 93.9578 17.2413 94.0038 17.318C94.0651 17.3793 94.1571 17.4483 94.2798 17.525C94.4024 17.6017 94.4944 17.6707 94.5558 17.732C94.6324 17.778 94.7474 17.8393 94.9008 17.916C95.0694 17.9927 95.1921 18.054 95.2688 18.1C95.3454 18.1307 95.4758 18.192 95.6598 18.284C95.8591 18.3607 95.9971 18.4143 96.0738 18.445C96.9784 18.8437 97.6838 19.296 98.1898 19.802C98.7111 20.2927 98.9718 20.952 98.9718 21.78ZM110.01 24.379C109.152 24.8697 108.017 25.115 106.606 25.115C104.797 25.115 103.356 24.5707 102.282 23.482C101.209 22.3933 100.672 20.9673 100.672 19.204C100.672 17.3333 101.163 15.869 102.144 14.811C103.126 13.7377 104.375 13.201 105.893 13.201C107.381 13.201 108.561 13.6687 109.435 14.604C110.309 15.524 110.746 16.858 110.746 18.606C110.746 19.0813 110.7 19.5797 110.608 20.101H102.949C103.103 21.113 103.532 21.8873 104.237 22.424C104.943 22.9607 105.832 23.229 106.905 23.229C108.147 23.229 109.182 22.9377 110.01 22.355V24.379ZM105.939 15.064C105.173 15.064 104.513 15.3477 103.961 15.915C103.409 16.467 103.064 17.272 102.926 18.33H108.561V17.916C108.531 17.042 108.293 16.352 107.848 15.846C107.404 15.3247 106.767 15.064 105.939 15.064Z" fill="#292830"></path></svg></a>
+      </div>
+      <nav aria-label="secondary" class="[ justify-evenly ] [ gap-7 ]" tabindex="-1">
+        <div>
+          <h2 class="fs-600 fw-medium mb-5 uppercase">Links</h2>
+          <ul role="list">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li class="mt-1">
+              <a href="">About us</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Careers</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Pricing</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Features</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="fs-600 fw-medium mb-5 uppercase">Legal</h2>
+          <ul role="list">
+            <li>
+              <a href="">Terms of use</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Terms of conditions</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Privecy policy</a>
+            </li>
+            <li class="mt-1">
+              <a href="">Cookie policy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="site-foot__email">
+        <h2 class="fs-500 fw-medium mb-5">Newsletter</h2>
+        <form action="#" class="my-1" method="post" rel="noopener" target="_blank">
+          <label class="fs-500 text-tertiary mb-4" for="email">Over 25000 people have subscribed</label>
+          <div class="[ flex-space ] [ pl-5 pr-1 ]">
+            <input aria-label="Email" class="pl-5" id="email" placeholder="Enter your email" type="email"> <button aria-controls="email" aria-label="Subscribe" class="[ button ]" href="" data-type="input">Subscribe</button>
+          </div>
+        </form>
+        <p class="fs-200 text-tertiary">We don&rsquo;t sell your email and spam</p>
+      </div>
+    </div>
+    <div class="[ copyright ] [ wrapper ] [ flex-column-responsive flex-space ] [ py-4 ]">
+      <div>
+        <ul class="flex-row" role="list">
+          <li class="mr-3">
+            <a href="">Privacy &amp; Terms</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <p class="fs-200 text-secondary">Copyright &#64; 2022 xpence</p>
+      <ul class="[ sit-foot__social ] [ flex-row ] [ gap-2 ]" role="list">
+        <li>
+          <a aria-label="Facebook" href=""><span aria-hidden="true" class="bi bi-facebook"></span></a>
+        </li>
+        <li>
+          <a aria-label="Twitter" href=""><span aria-hidden="true" class="bi bi-twitter"></span></a>
+        </li>
+        <li>
+          <a aria-label="Linkedin" href=""><span aria-hidden="true" class="bi bi-linkedin"></span></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script defer src="/js/main.js">
+  </script>
+</body>
+</html>

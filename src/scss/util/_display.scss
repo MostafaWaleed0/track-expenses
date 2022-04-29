@@ -1,0 +1,59 @@
+@use '../abstracts/breakpoints' as *;
+
+.grid {
+  display: grid;
+}
+
+.flex-row {
+  display: flex;
+}
+
+[class*='flex-wrap'] {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.center-xy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.center-y {
+  display: flex;
+  align-items: center;
+}
+
+
+.flex-column-responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+  }
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.justify-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,41 @@
+@use '../abstracts/' as *;
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: var(--clr-secondary);
+}
+
+:where(h1, h2, h3, p) {
+  @include breakpoint(medium) {
+    max-width: var(--width);
+  }
+}
+
+:where(h1, h2, h3, a ){
+  line-height: 1;
+}
+
+h1 {
+  --width: 10.29ch;
+  font-size: var(--fs-xl);
+  color: var(--clr-secondary);
+
+}
+
+h2 {
+  --width: 27ch;
+  font-size: var(--fs-lg);
+}
+
+
+p {
+  --width: 39ch;
+  font-size: var(--fs-600);
+  color: var(--clr-tertiary);
+  line-height: 163%;
+}
+
+a {
+  font-weight: var(--fw-medium);
+  color: inherit;
+}

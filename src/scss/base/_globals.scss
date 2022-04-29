@@ -1,0 +1,40 @@
+@use '../abstracts/' as *;
+
+html {
+  scrollbar-color: var(--clr-primary) var(--clr-white);
+}
+
+main {
+  flex: auto;
+  &:focus {
+    outline: none;
+  }
+}
+
+:focus {
+  outline: 1px solid var(--clr-secondary);
+  outline-offset: 0.2rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  &:hover:not([class]) {
+    text-underline-offset: 2px;
+    text-decoration-color: var(--clr-secondary);
+    text-decoration: underline;
+  }
+}
+
+[tabindex="-1"] {
+  outline: none;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  padding: 0;
+}
+
+[role='button'] {
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+@use '../abstracts/colors' as *;
+
+@each $name, $color in $theme-colors {
+  .text-#{$name} {
+    color: var(--clr-#{$name}) !important;
+  }
+  .bg-#{$name} {
+    background-color: var(--clr-#{$name}) !important;
+  }
+}

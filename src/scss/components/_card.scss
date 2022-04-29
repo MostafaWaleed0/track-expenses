@@ -1,0 +1,10 @@
+@use '../abstracts/function' as *;
+
+.cards {
+  margin-top: var(--space-9);
+}
+
+.card {
+  width: rem(350);
+  transition: 0.4s;
+}
